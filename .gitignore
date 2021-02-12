@@ -1,0 +1,16 @@
+.vscode
+.DS_Store
+*.pyc
+/mysql
+/bazent/media/uploads
+*.py[co]
+.idea
+__pycache__/
+__pycache__/
+*.py[cod]
+*$py.class
+sftp-config.json
+do.txt
+*.log
+local_settings.py
+db.sqlite3

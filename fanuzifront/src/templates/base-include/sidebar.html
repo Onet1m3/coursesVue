@@ -1,0 +1,31 @@
+
+<ul class="collapsible collapsible-accordion">
+    <li class="bold"><a class="collapsible-header waves-effect waves-purple lighten-3" tabindex="0">Онлайн школы</a>
+        <div class="collapsible-body">
+            <ul>
+                {% for school in schools %}
+                <li><a href="{{school.get_absolute_url}}">{{ school.title }}</a></li>
+                <!--
+                <li><a href="">Школа 2</a></li>
+                <li><a href="">Школа 3</a></li>
+                <li><a href="">Школа 4</a></li>-->
+                {% endfor %}
+            </ul>
+        </div>
+    </li>
+    <li class="bold"><a class="collapsible-header waves-effect waves-purple lighten-3" tabindex="0">Курсы</a>
+        <div class="collapsible-body">
+            <ul>
+                {% for category in categories %}
+                {% if not category.parent_id %}
+                <li><a href="{{ category.get_absolut_url }}">{{ category.name }}</a></li>
+                <!--
+                <li><a href="">Дизайн</a></li> 
+                <li><a href="">Маркетинг</a></li>
+                -->
+                {% endif %}
+                {% endfor %}
+            </ul>
+        </div>
+    </li>
+</ul>

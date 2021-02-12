@@ -1,0 +1,195 @@
+[
+    {
+      "model": "courses.CourseCategory",
+      "pk": 1,
+      "fields": {
+
+            "translation_lang": "ru",
+            "name": "Программирование",
+            "slug": "programming",
+            "description": "Курсы по программированию",
+            "icon_class": "",
+            "type": "",
+            "active": "True",
+            "is_custom": ""
+      }
+    },
+    {
+        "model": "courses.CourseCategory",
+        "pk": 2,
+        "fields": {
+  
+            "translation_lang": "ru",
+            "parent_id": 1,
+            "name": "Программирование на Python",
+            "slug": "programming in Python",
+            "description": "Курсы по программированию на Python",
+            "icon_class": "",
+            "type": "",
+            "active": "True",
+            "is_custom": ""
+        }
+      },
+      {
+        "model": "courses.CourseCategory",
+        "pk": 3,
+        "fields": {
+  
+            "translation_lang": "ru",
+            "parent_id": 1,
+            "name": "Программирование на Java",
+            "slug": "programming in Java",
+            "description": "Курсы по программированию на Java",
+            "icon_class": "",
+            "type": "",
+            "active": "True",
+            "is_custom": ""
+        }
+      },
+      {
+        "model": "courses.CourseCategory",
+        "pk": 4,
+        "fields": {
+  
+            "translation_lang": "ru",
+            "name": "Маркетинг",
+            "slug": "marketing",
+            "description": "Маркетинг",
+            "icon_class": "",
+            "type": "",
+            "active": "True",
+            "is_custom": ""
+        }
+      },
+      {
+        "model": "courses.CourseCategory",
+        "pk": 5,
+        "fields": {
+  
+            "translation_lang": "ru",
+            "parent_id": 4,
+            "name": "Таргетированная реклама",
+            "slug": "targetirovannaya_reklama",
+            "description": "Таргетированная реклама",
+            "icon_class": "",
+            "type": "",
+            "active": "True",
+            "is_custom": ""
+        }
+      },
+      {
+        "model": "courses.CourseCategory",
+        "pk": 6,
+        "fields": {
+  
+            "translation_lang": "ru",
+            "parent_id": 4,
+            "name": "SMM-продвижение",
+            "slug": "SMM-prodvizenie",
+            "description": "SMM-продвижение",
+            "icon_class": "",
+            "type": "",
+            "active": "True",
+            "is_custom": ""
+        }
+      },
+      {
+        "model": "courses.CoursePartner",
+        "pk": 1,
+        "fields": {
+  
+            "course_id": 2,
+            "partner_link": "hhfgjdkkvu2lg",
+            "create_at": "2020-05-15 09:30",
+            "update_at": "2020-05-15 09:30"
+
+        }
+      },
+      {
+        "model": "courses.CoursePartner",
+        "pk": 2,
+        "fields": {
+  
+            "course_id": 3,
+            "partner_link": "hhfgjdkkvu2lg",
+            "create_at": "2020-05-15 09:30",
+            "update_at": "2020-05-15 09:30"
+
+        }
+      },
+      {
+        "model": "courses.CoursePartner",
+        "pk": 3,
+        "fields": {
+  
+            "course_id": 3,
+            "partner_link": "hhfgjdkkvu2lg",
+            "create_at": "2020-05-15 09:30",
+            "update_at": "2020-05-15 09:30"
+
+        }
+      },
+      {
+        "model": "courses.School",
+        "pk": 1,
+        "fields": {
+              "title": "Skillbox",
+              "url": "https://skillbox.ru",
+              "picture": "img/unnamed.png",
+              "slug": "skillbox"
+        }
+      },
+      {
+        "model": "courses.School",
+        "pk": 2,
+        "fields": {
+              "title": "Яндекс Практикум",
+              "url": "https://praktikum.yandex.ru/",
+              "picture": "img/unnamed.png",
+              "slug": "yandexpractikum"
+        }
+      },
+      {
+        "model": "courses.School",
+        "pk": 3,
+        "fields": {
+              "title": "GeekBrains",
+              "url": "https://geekbrains.ru/",
+              "picture": "img/unnamed.png",
+              "slug": "geekbrains"
+        }
+      },
+      {
+        "model": "courses.Course",
+        "pk": 1,
+        "fields": {
+            "category": 1,
+            "title": "Programming in Python",
+            "school_name": 1,
+            "description": "This is great course",
+            "slug": "programming_in_python",
+            "date_start": "2021-05-15",
+            "date_end": "2021-06-15",
+            "amount": "2000.00",
+            "raiting": 0,
+            "create_at": "2020-05-15 09:30"
+        }
+      },
+      {
+        "model": "courses.Course",
+        "pk": 2,
+        "fields": {
+            "category": 1,
+            "title": "Programming in Python",
+            "school_name": 1,
+            "description": "This is light course",
+            "slug": "programming_in_python",
+            "date_start": "2020-05-15",
+            "date_end": "2020-06-15",
+            "amount": "2000.00",
+            "raiting": 3,
+            "create_at": "2020-05-15 09:30"
+        }
+      }
+
+]

@@ -1,0 +1,20 @@
+<template>
+    <div class="home">
+        <div class="content__item_card col s12 m12 l12">
+          <div class="card">
+              <div class="card-image">
+                  <img src="" alt="">
+              </div>
+                  <div class="card-content">
+                      <span class="card-title">Программирование на Java</span>
+                      <p>Дата начала курса: </p>
+                      <p>Дата окончания курса: </p>
+                      <p>Стоимость: </p>
+                  </div>
+              <div class="card-action">
+                  <a href="#">Ссылка на курс</a>
+              </div>
+          </div>
+      </div>
+    </div>
+</template>

@@ -5,7 +5,7 @@ from django.urls import reverse
 
 class CourseCategory(models.Model):
     translation_lang = models.CharField(max_length=10, blank=True, null=True)
-    parent_id = models.ForeignKey(to='self', on_delete=models.CASCADE, blank=True, null=True, verbose_name="Название родительской категории")
+    parent_id = models.ForeignKey(to='self', on_delete=models.CASCADE, blank=True, null=True, verbose_name="Название родительской категории", related_name="children")
     name = models.CharField(max_length=150, verbose_name="Название категории")
     slug = models.CharField(max_length=150, blank=True, null=True, verbose_name="Ссылка категории")
     description = models.CharField(max_length=255, blank=True, null=True, verbose_name="Описание категории")
@@ -25,11 +25,11 @@ class CourseCategory(models.Model):
     def __str__(self):
         return f"{self.name}"
 
-    def get_fields(self):
-        return self.categoryfield_set.filter(parent_id=None)
+    # def get_fields(self):
+    #     return self.categoryfield_set.filter(parent_id=None)
 
-    def get_subcategories(self):
-        return self.categories_set.all().order_by('name')
+    # def get_subcategories(self):
+    #     return self.categories_set.all().order_by('name')
 
 
 class CoursePartner(models.Model):

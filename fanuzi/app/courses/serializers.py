@@ -1,12 +1,17 @@
+from rest_framework_recursive.fields import RecursiveField
 from rest_framework import serializers
 from .models import CourseCategory, School, Course 
 
 
 class CourseCategorySerializer(serializers.ModelSerializer):
     """Сериализатор категорий курсов"""
+
+    children = RecursiveField(many=True)
     class Meta:
         model = CourseCategory
         fields = '__all__'
+
+   
 
 
 class SchoolSerializer(serializers.ModelSerializer):

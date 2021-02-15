@@ -24,7 +24,6 @@ export default {
        await fetch(`${this.$store.getters.getServerUrl}/school/`)
         .then(response => response.json())
         .then(resdata => this.listSchools.result = resdata)
-        console.log(this.listSchools)
     }
   }
 }

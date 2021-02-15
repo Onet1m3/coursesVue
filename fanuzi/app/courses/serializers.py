@@ -9,13 +9,18 @@ class CourseCategorySerializer(serializers.ModelSerializer):
     children = RecursiveField(many=True)
     class Meta:
         model = CourseCategory
-        fields = '__all__'
-
-   
+        fields = ['parent_id', 'name', 'slug', 'description', 'children']
 
 
 class SchoolSerializer(serializers.ModelSerializer):
     """"Сериализация школ"""
+    class Meta:
+        model = School
+        fields = ['title', 'slug']
+
+
+class SchoolDetailSerializer(serializers.ModelSerializer):
+    """Детализация школы"""
     class Meta:
         model = School
         fields = '__all__'

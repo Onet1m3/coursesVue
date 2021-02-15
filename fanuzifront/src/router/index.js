@@ -11,7 +11,8 @@ const routes = [
     path: '/school/:slug',
     name: 'School',
     meta: { layout: 'main' },
-    component: () => import('../views/DetailSchool')
+    component: () => import('../views/DetailSchool'),
+    props: true
   },
   {
     path: '/login',

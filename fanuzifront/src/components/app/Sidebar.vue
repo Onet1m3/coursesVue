@@ -15,13 +15,8 @@
                 </nav>
             </li>
             <Schools />
-            <li class="bold"><a class="collapsible-header waves-effect waves-purple lighten-3">Курсы</a>
-                <div class="collapsible-body">
-                    <ul>
-                        <li><a href="">Что-то</a></li>
-                    </ul>
-                </div>
-            </li>
+            <Courses />
+            
         </ul>
     </div>
 </template>
@@ -29,12 +24,13 @@
 <script>
 import M from 'materialize-css/dist/js/materialize.min'
 import Schools from './sidebar/Schools'
+import Courses from './sidebar/Courses'
 export default {
   mounted () {
     M.Collapsible.init(this.$refs.collapsible, {})
   },
   components: {
-      Schools
+      Schools, Courses
   }
 }
 </script>

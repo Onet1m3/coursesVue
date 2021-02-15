@@ -14,16 +14,8 @@
                     </div>
                 </nav>
             </li>
-            <li class="bold"><a class="collapsible-header waves-effect waves-purple lighten-3" tabindex="0">Онлайн школы</a>
-                <div class="collapsible-body">
-                    <ul>
-                        <li><a href="">Школа 2</a></li>
-                        <li><a href="">Школа 3</a></li>
-                        <li><a href="">Школа 4</a></li>
-                    </ul>
-                </div>
-            </li>
-            <li class="bold"><a class="collapsible-header waves-effect waves-purple lighten-3" tabindex="0">Курсы</a>
+            <Schools />
+            <li class="bold"><a class="collapsible-header waves-effect waves-purple lighten-3">Курсы</a>
                 <div class="collapsible-body">
                     <ul>
                         <li><a href="">Что-то</a></li>
@@ -36,9 +28,13 @@
 
 <script>
 import M from 'materialize-css/dist/js/materialize.min'
+import Schools from './sidebar/Schools'
 export default {
   mounted () {
     M.Collapsible.init(this.$refs.collapsible, {})
+  },
+  components: {
+      Schools
   }
 }
 </script>

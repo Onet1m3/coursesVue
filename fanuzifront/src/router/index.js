@@ -8,10 +8,10 @@ const routes = [
     component: () => import('../views/Home')
   },
   {
-    path: '/school',
+    path: '/school/:slug',
     name: 'School',
     meta: { layout: 'main' },
-    component: () => import('../views/School')
+    component: () => import('../views/DetailSchool')
   },
   {
     path: '/login',

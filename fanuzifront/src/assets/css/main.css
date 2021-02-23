@@ -335,8 +335,8 @@ input:not([type]):focus:not([readonly])+label, input[type=text]:not(.browser-def
 }
 
 .preloader-wrapper.big.active {
-    left: 38%;
-    top: 40%;
+    left: 0%;
+    top: 30%;
     z-index: 1;
 }
 

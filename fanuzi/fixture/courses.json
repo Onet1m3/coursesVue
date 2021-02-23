@@ -18,12 +18,11 @@
         "model": "courses.CourseCategory",
         "pk": 2,
         "fields": {
-  
             "translation_lang": "ru",
             "parent_id": 1,
-            "name": "Программирование на Python",
-            "slug": "programming in Python",
-            "description": "Курсы по программированию на Python",
+            "name": "Web-разработка",
+            "slug": "web-develope",
+            "description": "Web-разработка",
             "icon_class": "",
             "type": "",
             "active": "True",
@@ -37,9 +36,9 @@
   
             "translation_lang": "ru",
             "parent_id": 1,
-            "name": "Программирование на Java",
-            "slug": "programming in Java",
-            "description": "Курсы по программированию на Java",
+            "name": "Мобильная разработка",
+            "slug": "mobile-develope",
+            "description": "Мобильная разработка",
             "icon_class": "",
             "type": "",
             "active": "True",
@@ -49,6 +48,629 @@
       {
         "model": "courses.CourseCategory",
         "pk": 4,
+        "fields": {
+  
+            "translation_lang": "ru",
+            "parent_id": 1,
+            "name": "JavaScript-разработка",
+            "slug": "js-develope",
+            "description": "JavaScript-разработка",
+            "icon_class": "",
+            "type": "",
+            "active": "True",
+            "is_custom": ""
+        }
+      },
+      {
+        "model": "courses.CourseCategory",
+        "pk": 5,
+        "fields": {
+  
+            "translation_lang": "ru",
+            "parent_id": 1,
+            "name": "Python-разработка",
+            "slug": "python-develope",
+            "description": "Python-разработка",
+            "icon_class": "",
+            "type": "",
+            "active": "True",
+            "is_custom": ""
+        }
+      },
+      {
+        "model": "courses.CourseCategory",
+        "pk": 6,
+        "fields": {
+  
+            "translation_lang": "ru",
+            "parent_id": 1,
+            "name": "Frontend-разработка",
+            "slug": "frontend-develope",
+            "description": "Frontend-разработка",
+            "icon_class": "",
+            "type": "",
+            "active": "True",
+            "is_custom": ""
+        }
+      },
+      {
+        "model": "courses.CourseCategory",
+        "pk": 7,
+        "fields": {
+  
+            "translation_lang": "ru",
+            "parent_id": 1,
+            "name": "Системное администрирование",
+            "slug": "system-admin",
+            "description": "Системное администрирование",
+            "icon_class": "",
+            "type": "",
+            "active": "True",
+            "is_custom": ""
+        }
+      },
+      {
+        "model": "courses.CourseCategory",
+        "pk": 8,
+        "fields": {
+  
+            "translation_lang": "ru",
+            "parent_id": 1,
+            "name": "Разработка игр",
+            "slug": "game-develope",
+            "description": "Разработка игр",
+            "icon_class": "",
+            "type": "",
+            "active": "True",
+            "is_custom": ""
+        }
+      },
+      {
+        "model": "courses.CourseCategory",
+        "pk": 9,
+        "fields": {
+  
+            "translation_lang": "ru",
+            "parent_id": 1,
+            "name": "Java-разработка",
+            "slug": "java-develope",
+            "description": "Java-разработка",
+            "icon_class": "",
+            "type": "",
+            "active": "True",
+            "is_custom": ""
+        }
+      },
+      {
+        "model": "courses.CourseCategory",
+        "pk": 10,
+        "fields": {
+  
+            "translation_lang": "ru",
+            "parent_id": 1,
+            "name": "QA-тестирование",
+            "slug": "qa",
+            "description": "QA-тестирование",
+            "icon_class": "",
+            "type": "",
+            "active": "True",
+            "is_custom": ""
+        }
+      },
+      {
+        "model": "courses.CourseCategory",
+        "pk": 11,
+        "fields": {
+  
+            "translation_lang": "ru",
+            "parent_id": 1,
+            "name": "Android-разработка",
+            "slug": "android-develope",
+            "description": "Android-разработка",
+            "icon_class": "",
+            "type": "",
+            "active": "True",
+            "is_custom": ""
+        }
+      },
+      {
+        "model": "courses.CourseCategory",
+        "pk": 12,
+        "fields": {
+  
+            "translation_lang": "ru",
+            "parent_id": 1,
+            "name": "DevOps",
+            "slug": "devops",
+            "description": "DevOps",
+            "icon_class": "",
+            "type": "",
+            "active": "True",
+            "is_custom": ""
+        }
+      },
+      {
+        "model": "courses.CourseCategory",
+        "pk": 13,
+        "fields": {
+  
+            "translation_lang": "ru",
+            "parent_id": 1,
+            "name": "PHP-разработка",
+            "slug": "php-develope",
+            "description": "PHP-разработка",
+            "icon_class": "",
+            "type": "",
+            "active": "True",
+            "is_custom": ""
+        }
+      },
+      {
+        "model": "courses.CourseCategory",
+        "pk": 14,
+        "fields": {
+  
+            "translation_lang": "ru",
+            "parent_id": 1,
+            "name": "IOS-разработка",
+            "slug": "ios-develope",
+            "description": "IOS-разработка",
+            "icon_class": "",
+            "type": "",
+            "active": "True",
+            "is_custom": ""
+        }
+      },
+      {
+        "model": "courses.CourseCategory",
+        "pk": 15,
+        "fields": {
+  
+            "translation_lang": "ru",
+            "parent_id": 1,
+            "name": "Разработка игр на Unity",
+            "slug": "unity-develope",
+            "description": "Разработка игр на Unity",
+            "icon_class": "",
+            "type": "",
+            "active": "True",
+            "is_custom": ""
+        }
+      },
+      {
+        "model": "courses.CourseCategory",
+        "pk": 16,
+        "fields": {
+  
+            "translation_lang": "ru",
+            "parent_id": 1,
+            "name": "Разработка на C#",
+            "slug": "c-sharp-develope",
+            "description": "Разработка на C#",
+            "icon_class": "",
+            "type": "",
+            "active": "True",
+            "is_custom": ""
+        }
+      },
+      {
+        "model": "courses.CourseCategory",
+        "pk": 17,
+        "fields": {
+  
+            "translation_lang": "ru",
+            "parent_id": 1,
+            "name": "Разработка на C++",
+            "slug": "c-plus-develope",
+            "description": "Разработка на C++",
+            "icon_class": "",
+            "type": "",
+            "active": "True",
+            "is_custom": ""
+        }
+      },
+      {
+        "model": "courses.CourseCategory",
+        "pk": 18,
+        "fields": {
+  
+            "translation_lang": "ru",
+            "parent_id": 1,
+            "name": "Информационная безопасность",
+            "slug": "inform-security",
+            "description": "Информационная безопасность",
+            "icon_class": "",
+            "type": "",
+            "active": "True",
+            "is_custom": ""
+        }
+      },
+      {
+        "model": "courses.CourseCategory",
+        "pk": 19,
+        "fields": {
+  
+            "translation_lang": "ru",
+            "parent_id": 1,
+            "name": "Разработка на Kotlin",
+            "slug": "kotlin-develope",
+            "description": "Разработка на Kotlin",
+            "icon_class": "",
+            "type": "",
+            "active": "True",
+            "is_custom": ""
+        }
+      },
+      {
+        "model": "courses.CourseCategory",
+        "pk": 20,
+        "fields": {
+  
+            "translation_lang": "ru",
+            "parent_id": 1,
+            "name": "Разработка на Swift",
+            "slug": "swift-develope",
+            "description": "Разработка на Swift",
+            "icon_class": "",
+            "type": "",
+            "active": "True",
+            "is_custom": ""
+        }
+      },
+      {
+        "model": "courses.CourseCategory",
+        "pk": 21,
+        "fields": {
+  
+            "translation_lang": "ru",
+            "parent_id": 1,
+            "name": "Разработка игр на Unreal Engine",
+            "slug": "ue-develope",
+            "description": "Разработка игр на Unreal Engine",
+            "icon_class": "",
+            "type": "",
+            "active": "True",
+            "is_custom": ""
+        }
+      },
+      {
+        "model": "courses.CourseCategory",
+        "pk": 22,
+        "fields": {
+  
+            "translation_lang": "ru",
+            "parent_id": 1,
+            "name": "Golang-разработка",
+            "slug": "golang-develope",
+            "description": "Golang-разработка",
+            "icon_class": "",
+            "type": "",
+            "active": "True",
+            "is_custom": ""
+        }
+      },
+      {
+        "model": "courses.CourseCategory",
+        "pk": 23,
+        "fields": {
+  
+            "translation_lang": "ru",
+            "parent_id": 1,
+            "name": "VR/AR разработка",
+            "slug": "vr-develope",
+            "description": "VR/AR разработка",
+            "icon_class": "",
+            "type": "",
+            "active": "True",
+            "is_custom": ""
+        }
+      },
+      {
+        "model": "courses.CourseCategory",
+        "pk": 24,
+        "fields": {
+  
+            "translation_lang": "ru",
+            "parent_id": 1,
+            "name": "1C-разработка",
+            "slug": "1c-develope",
+            "description": "1C-разработка ",
+            "icon_class": "",
+            "type": "",
+            "active": "True",
+            "is_custom": ""
+        }
+      },
+      {
+        "model": "courses.CourseCategory",
+        "pk": 25,
+        "fields": {
+  
+            "translation_lang": "ru",
+            "name": "Управление",
+            "slug": "ypravlenie",
+            "description": "Управление",
+            "icon_class": "",
+            "type": "",
+            "active": "True",
+            "is_custom": ""
+        }
+      },
+      {
+        "model": "courses.CourseCategory",
+        "pk": 26,
+        "fields": {
+  
+            "translation_lang": "ru",
+            "parent_id": 25,
+            "name": "Product-менеджмент",
+            "slug": "product-manage",
+            "description": "Product-менеджмент",
+            "icon_class": "",
+            "type": "",
+            "active": "True",
+            "is_custom": ""
+        }
+      },
+      {
+        "model": "courses.CourseCategory",
+        "pk": 27,
+        "fields": {
+  
+            "translation_lang": "ru",
+            "parent_id": 25,
+            "name": "HR и управление персоналом",
+            "slug": "hr-manage",
+            "description": "HR и управление персоналом",
+            "icon_class": "",
+            "type": "",
+            "active": "True",
+            "is_custom": ""
+        }
+      },
+      {
+        "model": "courses.CourseCategory",
+        "pk": 28,
+        "fields": {
+  
+            "translation_lang": "ru",
+            "parent_id": 25,
+            "name": "Управление бизнесом",
+            "slug": "business-manage",
+            "description": "Управление бизнесом",
+            "icon_class": "",
+            "type": "",
+            "active": "True",
+            "is_custom": ""
+        }
+      },
+      {
+        "model": "courses.CourseCategory",
+        "pk": 29,
+        "fields": {
+  
+            "translation_lang": "ru",
+            "parent_id": 25,
+            "name": "Финансы для руководителей",
+            "slug": "finance-manage",
+            "description": "Финансы для руководителей",
+            "icon_class": "",
+            "type": "",
+            "active": "True",
+            "is_custom": ""
+        }
+      },
+      {
+        "model": "courses.CourseCategory",
+        "pk": 30,
+        "fields": {
+  
+            "translation_lang": "ru",
+            "parent_id": 25,
+            "name": "Руководство маркетингом",
+            "slug": "marketing-manage",
+            "description": "Руководство маркетингом",
+            "icon_class": "",
+            "type": "",
+            "active": "True",
+            "is_custom": ""
+        }
+      },
+      {
+        "model": "courses.CourseCategory",
+        "pk": 31,
+        "fields": {
+  
+            "translation_lang": "ru",
+            "parent_id": 25,
+            "name": "Project-менеджмент",
+            "slug": "project-manage",
+            "description": "Project-менеджмент",
+            "icon_class": "",
+            "type": "",
+            "active": "True",
+            "is_custom": ""
+        }
+      },
+      {
+        "model": "courses.CourseCategory",
+        "pk": 32,
+        "fields": {
+  
+            "translation_lang": "ru",
+            "parent_id": 25,
+            "name": "Запуск стартапов",
+            "slug": "startup-manage",
+            "description": "Запуск стартапов",
+            "icon_class": "",
+            "type": "",
+            "active": "True",
+            "is_custom": ""
+        }
+      },
+      {
+        "model": "courses.CourseCategory",
+        "pk": 33,
+        "fields": {
+  
+            "translation_lang": "ru",
+            "parent_id": 25,
+            "name": "Управление разработкой и IT",
+            "slug": "develope-manage",
+            "description": "Управление разработкой и IT",
+            "icon_class": "",
+            "type": "",
+            "active": "True",
+            "is_custom": ""
+        }
+      },
+      {
+        "model": "courses.CourseCategory",
+        "pk": 34,
+        "fields": {
+  
+            "translation_lang": "ru",
+            "parent_id": 25,
+            "name": "Деловые коммуникации",
+            "slug": "official-manage",
+            "description": "Деловые коммуникации",
+            "icon_class": "",
+            "type": "",
+            "active": "True",
+            "is_custom": ""
+        }
+      },
+      {
+        "model": "courses.CourseCategory",
+        "pk": 35,
+        "fields": {
+  
+            "translation_lang": "ru",
+            "parent_id": 25,
+            "name": "Управление продажами",
+            "slug": "ofer-manage",
+            "description": "Управление продажами",
+            "icon_class": "",
+            "type": "",
+            "active": "True",
+            "is_custom": ""
+        }
+      },
+      {
+        "model": "courses.CourseCategory",
+        "pk": 36,
+        "fields": {
+  
+            "translation_lang": "ru",
+            "parent_id": 25,
+            "name": "Работа с Excel и Google таблицами",
+            "slug": "tabs-manage",
+            "description": "Работа с Excel и Google таблицами",
+            "icon_class": "",
+            "type": "",
+            "active": "True",
+            "is_custom": ""
+        }
+      },
+      {
+        "model": "courses.CourseCategory",
+        "pk": 37,
+        "fields": {
+  
+            "translation_lang": "ru",
+            "parent_id": 25,
+            "name": "Управление образовательными проектами",
+            "slug": "education-manage",
+            "description": "Управление образовательными проектами",
+            "icon_class": "",
+            "type": "",
+            "active": "True",
+            "is_custom": ""
+        }
+      },
+      {
+        "model": "courses.CourseCategory",
+        "pk": 38,
+        "fields": {
+  
+            "translation_lang": "ru",
+            "parent_id": 25,
+            "name": "Юр. аспекты бизнеса",
+            "slug": "legal-manage",
+            "description": "Юридические аспекты бизнеса",
+            "icon_class": "",
+            "type": "",
+            "active": "True",
+            "is_custom": ""
+        }
+      },
+      {
+        "model": "courses.CourseCategory",
+        "pk": 39,
+        "fields": {
+  
+            "translation_lang": "ru",
+            "parent_id": 25,
+            "name": "Работа с презентациями",
+            "slug": "present-manage",
+            "description": "Работа с презентациями",
+            "icon_class": "",
+            "type": "",
+            "active": "True",
+            "is_custom": ""
+        }
+      },
+      {
+        "model": "courses.CourseCategory",
+        "pk": 40,
+        "fields": {
+  
+            "translation_lang": "ru",
+            "parent_id": 25,
+            "name": "Управление в e-commerce",
+            "slug": "e-commerce-manage",
+            "description": "Управление в e-commerce",
+            "icon_class": "",
+            "type": "",
+            "active": "True",
+            "is_custom": ""
+        }
+      },
+      {
+        "model": "courses.CourseCategory",
+        "pk": 41,
+        "fields": {
+  
+            "translation_lang": "ru",
+            "parent_id": 25,
+            "name": "Управление в дизайне",
+            "slug": "desing-manage",
+            "description": "Управление в дизайне",
+            "icon_class": "",
+            "type": "",
+            "active": "True",
+            "is_custom": ""
+        }
+      },
+      {
+        "model": "courses.CourseCategory",
+        "pk": 42,
+        "fields": {
+  
+            "translation_lang": "ru",
+            "parent_id": 25,
+            "name": "Управление в SMM",
+            "slug": "smm-manage",
+            "description": "Управление в SMM",
+            "icon_class": "",
+            "type": "",
+            "active": "True",
+            "is_custom": ""
+        }
+      },
+      {
+        "model": "courses.CourseCategory",
+        "pk": 43,
         "fields": {
   
             "translation_lang": "ru",
@@ -63,13 +685,109 @@
       },
       {
         "model": "courses.CourseCategory",
-        "pk": 5,
+        "pk": 44,
         "fields": {
   
             "translation_lang": "ru",
-            "parent_id": 4,
+            "parent_id": 43,
+            "name": "SMM-продвижение",
+            "slug": "smm-marketing",
+            "description": "SMM-продвижение",
+            "icon_class": "",
+            "type": "",
+            "active": "True",
+            "is_custom": ""
+        }
+      },
+      {
+        "model": "courses.CourseCategory",
+        "pk": 45,
+        "fields": {
+  
+            "translation_lang": "ru",
+            "parent_id": 43,
+            "name": "Интернет-маркетинг",
+            "slug": "internet-marketing",
+            "description": "Интернет-маркетинг",
+            "icon_class": "",
+            "type": "",
+            "active": "True",
+            "is_custom": ""
+        }
+      },
+      {
+        "model": "courses.CourseCategory",
+        "pk": 46,
+        "fields": {
+  
+            "translation_lang": "ru",
+            "parent_id": 43,
+            "name": "Копирайтинг",
+            "slug": "copiright-marketing",
+            "description": "Копирайтинг",
+            "icon_class": "",
+            "type": "",
+            "active": "True",
+            "is_custom": ""
+        }
+      },
+      {
+        "model": "courses.CourseCategory",
+        "pk": 47,
+        "fields": {
+  
+            "translation_lang": "ru",
+            "parent_id": 43,
+            "name": "Web-аналитика",
+            "slug": "web-marketing",
+            "description": "Web-аналитика",
+            "icon_class": "",
+            "type": "",
+            "active": "True",
+            "is_custom": ""
+        }
+      },
+      {
+        "model": "courses.CourseCategory",
+        "pk": 48,
+        "fields": {
+  
+            "translation_lang": "ru",
+            "parent_id": 43,
+            "name": "Контент-маркетинг",
+            "slug": "content-marketing",
+            "description": "Контент-маркетинг",
+            "icon_class": "",
+            "type": "",
+            "active": "True",
+            "is_custom": ""
+        }
+      },
+      {
+        "model": "courses.CourseCategory",
+        "pk": 49,
+        "fields": {
+  
+            "translation_lang": "ru",
+            "parent_id": 43,
+            "name": "Руководство маркетингом",
+            "slug": "lidership-marketing",
+            "description": "Руководство маркетингом",
+            "icon_class": "",
+            "type": "",
+            "active": "True",
+            "is_custom": ""
+        }
+      },
+      {
+        "model": "courses.CourseCategory",
+        "pk": 50,
+        "fields": {
+  
+            "translation_lang": "ru",
+            "parent_id": 43,
             "name": "Таргетированная реклама",
-            "slug": "targetirovannaya_reklama",
+            "slug": "target-marketing",
             "description": "Таргетированная реклама",
             "icon_class": "",
             "type": "",
@@ -79,14 +797,1035 @@
       },
       {
         "model": "courses.CourseCategory",
-        "pk": 6,
+        "pk": 51,
         "fields": {
   
             "translation_lang": "ru",
-            "parent_id": 4,
-            "name": "SMM-продвижение",
-            "slug": "SMM-prodvizenie",
-            "description": "SMM-продвижение",
+            "parent_id": 43,
+            "name": "SEO-продвижение",
+            "slug": "seo-marketing",
+            "description": "SEO-продвижение",
+            "icon_class": "",
+            "type": "",
+            "active": "True",
+            "is_custom": ""
+        }
+      },
+      {
+        "model": "courses.CourseCategory",
+        "pk": 52,
+        "fields": {
+  
+            "translation_lang": "ru",
+            "parent_id": 43,
+            "name": "Контекстная реклама",
+            "slug": "context-marketing",
+            "description": "Контекстная реклама",
+            "icon_class": "",
+            "type": "",
+            "active": "True",
+            "is_custom": ""
+        }
+      },
+      {
+        "model": "courses.CourseCategory",
+        "pk": 53,
+        "fields": {
+  
+            "translation_lang": "ru",
+            "parent_id": 43,
+            "name": "Продвижение в Instagram",
+            "slug": "instagram-marketing",
+            "description": "Продвижение в Instagram",
+            "icon_class": "",
+            "type": "",
+            "active": "True",
+            "is_custom": ""
+        }
+      },
+      {
+        "model": "courses.CourseCategory",
+        "pk": 54,
+        "fields": {
+  
+            "translation_lang": "ru",
+            "parent_id": 43,
+            "name": "Бренд-менеджмент",
+            "slug": "brand-marketing",
+            "description": "Бренд-менеджмент",
+            "icon_class": "",
+            "type": "",
+            "active": "True",
+            "is_custom": ""
+        }
+      },
+      {
+        "model": "courses.CourseCategory",
+        "pk": 55,
+        "fields": {
+  
+            "translation_lang": "ru",
+            "parent_id": 43,
+            "name": "PR-менеджмент",
+            "slug": "pr-marketing",
+            "description": "PR-менеджмент",
+            "icon_class": "",
+            "type": "",
+            "active": "True",
+            "is_custom": ""
+        }
+      },
+      {
+        "model": "courses.CourseCategory",
+        "pk": 56,
+        "fields": {
+  
+            "translation_lang": "ru",
+            "parent_id": 43,
+            "name": "Продвижение видео",
+            "slug": "video-marketing",
+            "description": "Продвижение видео",
+            "icon_class": "",
+            "type": "",
+            "active": "True",
+            "is_custom": ""
+        }
+      },
+      {
+        "model": "courses.CourseCategory",
+        "pk": 57,
+        "fields": {
+  
+            "translation_lang": "ru",
+            "parent_id": 43,
+            "name": "SERM и репутация",
+            "slug": "serm-marketing",
+            "description": "SERM и репутация",
+            "icon_class": "",
+            "type": "",
+            "active": "True",
+            "is_custom": ""
+        }
+      },
+      {
+        "model": "courses.CourseCategory",
+        "pk": 58,
+        "fields": {
+  
+            "translation_lang": "ru",
+            "parent_id": 43,
+            "name": "CRM и email-маркетинг",
+            "slug": "crm-marketing",
+            "description": "CRM и email-маркетинг",
+            "icon_class": "",
+            "type": "",
+            "active": "True",
+            "is_custom": ""
+        }
+      },
+      {
+        "model": "courses.CourseCategory",
+        "pk": 59,
+        "fields": {
+  
+            "translation_lang": "ru",
+            "parent_id": 43,
+            "name": "Реклама у блогеров",
+            "slug": "reklama-marketing",
+            "description": "Реклама у блогеров",
+            "icon_class": "",
+            "type": "",
+            "active": "True",
+            "is_custom": ""
+        }
+      },
+      {
+        "model": "courses.CourseCategory",
+        "pk": 60,
+        "fields": {
+  
+            "translation_lang": "ru",
+            "parent_id": 43,
+            "name": "Мессенджер-маркетинг и чат-боты",
+            "slug": "chat-bot-marketing",
+            "description": "Мессенджер-маркетинг и чат-боты",
+            "icon_class": "",
+            "type": "",
+            "active": "True",
+            "is_custom": ""
+        }
+      },
+      {
+        "model": "courses.CourseCategory",
+        "pk": 61,
+        "fields": {
+  
+            "translation_lang": "ru",
+            "parent_id": 43,
+            "name": "Маркетинг мобильных приложений",
+            "slug": "mobile-marketing",
+            "description": "Маркетинг мобильных приложений",
+            "icon_class": "",
+            "type": "",
+            "active": "True",
+            "is_custom": ""
+        }
+      },
+      {
+        "model": "courses.CourseCategory",
+        "pk": 62,
+        "fields": {
+  
+            "translation_lang": "ru",
+            "parent_id": 43,
+            "name": "Управление в SMM",
+            "slug": "control-smm-marketing",
+            "description": "Управление в SMM",
+            "icon_class": "",
+            "type": "",
+            "active": "True",
+            "is_custom": ""
+        }
+      },
+      {
+        "model": "courses.CourseCategory",
+        "pk": 63,
+        "fields": {
+  
+            "translation_lang": "ru",
+            "name": "Дизайн",
+            "slug": "design",
+            "description": "Дизайн",
+            "icon_class": "",
+            "type": "",
+            "active": "True",
+            "is_custom": ""
+        }
+      },
+      {
+        "model": "courses.CourseCategory",
+        "pk": 64,
+        "fields": {
+  
+            "translation_lang": "ru",
+            "parent_id": 63,
+            "name": "Web-дизайн",
+            "slug": "web-design",
+            "description": "Web-дизайн",
+            "icon_class": "",
+            "type": "",
+            "active": "True",
+            "is_custom": ""
+        }
+      },
+      {
+        "model": "courses.CourseCategory",
+        "pk": 65,
+        "fields": {
+  
+            "translation_lang": "ru",
+            "parent_id": 63,
+            "name": "Графический дизайн",
+            "slug": "graphic-design",
+            "description": "Графический дизайн",
+            "icon_class": "",
+            "type": "",
+            "active": "True",
+            "is_custom": ""
+        }
+      },
+      {
+        "model": "courses.CourseCategory",
+        "pk": 66,
+        "fields": {
+  
+            "translation_lang": "ru",
+            "parent_id": 63,
+            "name": "UX/UI дизайн",
+            "slug": "ux-ui-design",
+            "description": "UX/UI дизайн",
+            "icon_class": "",
+            "type": "",
+            "active": "True",
+            "is_custom": ""
+        }
+      },
+      {
+        "model": "courses.CourseCategory",
+        "pk": 67,
+        "fields": {
+  
+            "translation_lang": "ru",
+            "parent_id": 63,
+            "name": "3D-моделирование",
+            "slug": "3d-design",
+            "description": "3D-моделирование",
+            "icon_class": "",
+            "type": "",
+            "active": "True",
+            "is_custom": ""
+        }
+      },
+      {
+        "model": "courses.CourseCategory",
+        "pk": 68,
+        "fields": {
+  
+            "translation_lang": "ru",
+            "parent_id": 63,
+            "name": "Дизайн интерьеров",
+            "slug": "interior-design",
+            "description": "Дизайн интерьеров",
+            "icon_class": "",
+            "type": "",
+            "active": "True",
+            "is_custom": ""
+        }
+      },
+      {
+        "model": "courses.CourseCategory",
+        "pk": 69,
+        "fields": {
+  
+            "translation_lang": "ru",
+            "parent_id": 63,
+            "name": "Создание и монтаж видео",
+            "slug": "create-video-design",
+            "description": "Создание и монтаж видео",
+            "icon_class": "",
+            "type": "",
+            "active": "True",
+            "is_custom": ""
+        }
+      },
+      {
+        "model": "courses.CourseCategory",
+        "pk": 70,
+        "fields": {
+  
+            "translation_lang": "ru",
+            "parent_id": 63,
+            "name": "Отрисовка иллюстраций",
+            "slug": "illustrator-design",
+            "description": "Отрисовка иллюстраций",
+            "icon_class": "",
+            "type": "",
+            "active": "True",
+            "is_custom": ""
+        }
+      },
+      {
+        "model": "courses.CourseCategory",
+        "pk": 71,
+        "fields": {
+  
+            "translation_lang": "ru",
+            "parent_id": 63,
+            "name": "3D-анимация",
+            "slug": "3d-animation-design",
+            "description": "3D-анимация",
+            "icon_class": "",
+            "type": "",
+            "active": "True",
+            "is_custom": ""
+        }
+      },
+      {
+        "model": "courses.CourseCategory",
+        "pk": 72,
+        "fields": {
+  
+            "translation_lang": "ru",
+            "parent_id": 63,
+            "name": "Геймдизайн",
+            "slug": "game-design",
+            "description": "Геймдизайн",
+            "icon_class": "",
+            "type": "",
+            "active": "True",
+            "is_custom": ""
+        }
+      },
+      {
+        "model": "courses.CourseCategory",
+        "pk": 73,
+        "fields": {
+  
+            "translation_lang": "ru",
+            "parent_id": 63,
+            "name": "Геймдизайн",
+            "slug": "game-design",
+            "description": "Геймдизайн",
+            "icon_class": "",
+            "type": "",
+            "active": "True",
+            "is_custom": ""
+        }
+      },
+      {
+        "model": "courses.CourseCategory",
+        "pk": 74,
+        "fields": {
+  
+            "translation_lang": "ru",
+            "parent_id": 63,
+            "name": "3D MAX",
+            "slug": "3dmax-design",
+            "description": "3D MAX",
+            "icon_class": "",
+            "type": "",
+            "active": "True",
+            "is_custom": ""
+        }
+      },
+      {
+        "model": "courses.CourseCategory",
+        "pk": 75,
+        "fields": {
+  
+            "translation_lang": "ru",
+            "parent_id": 63,
+            "name": "Ландшафтный дизайн",
+            "slug": "landscape-design",
+            "description": "Ландшафтный дизайн",
+            "icon_class": "",
+            "type": "",
+            "active": "True",
+            "is_custom": ""
+        }
+      },
+      {
+        "model": "courses.CourseCategory",
+        "pk": 76,
+        "fields": {
+  
+            "translation_lang": "ru",
+            "parent_id": 63,
+            "name": "Дизайн мобильных приложений",
+            "slug": "mobileapp-design",
+            "description": "Дизайн мобильных приложений",
+            "icon_class": "",
+            "type": "",
+            "active": "True",
+            "is_custom": ""
+        }
+      },
+      {
+        "model": "courses.CourseCategory",
+        "pk": 77,
+        "fields": {
+  
+            "translation_lang": "ru",
+            "parent_id": 63,
+            "name": "Скетчинг",
+            "slug": "scach-design",
+            "description": "Скетчинг",
+            "icon_class": "",
+            "type": "",
+            "active": "True",
+            "is_custom": ""
+        }
+      },
+      {
+        "model": "courses.CourseCategory",
+        "pk": 78,
+        "fields": {
+  
+            "translation_lang": "ru",
+            "parent_id": 63,
+            "name": "Adobe Photoshop",
+            "slug": "adobe-ph-design",
+            "description": "Adobe Photoshop",
+            "icon_class": "",
+            "type": "",
+            "active": "True",
+            "is_custom": ""
+        }
+      },
+      {
+        "model": "courses.CourseCategory",
+        "pk": 79,
+        "fields": {
+  
+            "translation_lang": "ru",
+            "parent_id": 63,
+            "name": "Adobe After Effects",
+            "slug": "adobe-ae-design",
+            "description": "Adobe After Effects",
+            "icon_class": "",
+            "type": "",
+            "active": "True",
+            "is_custom": ""
+        }
+      },
+      {
+        "model": "courses.CourseCategory",
+        "pk": 80,
+        "fields": {
+  
+            "translation_lang": "ru",
+            "parent_id": 63,
+            "name": "Создание лендингов",
+            "slug": "landing-design",
+            "description": "Создание лендингов",
+            "icon_class": "",
+            "type": "",
+            "active": "True",
+            "is_custom": ""
+        }
+      },
+      {
+        "model": "courses.CourseCategory",
+        "pk": 81,
+        "fields": {
+  
+            "translation_lang": "ru",
+            "parent_id": 63,
+            "name": "Figma",
+            "slug": "figma-design",
+            "description": "Figma",
+            "icon_class": "",
+            "type": "",
+            "active": "True",
+            "is_custom": ""
+        }
+      },
+      {
+        "model": "courses.CourseCategory",
+        "pk": 82,
+        "fields": {
+  
+            "translation_lang": "ru",
+            "parent_id": 63,
+            "name": "Adobe Illustrator",
+            "slug": "adobe-ill-design",
+            "description": "Adobe Illustrator",
+            "icon_class": "",
+            "type": "",
+            "active": "True",
+            "is_custom": ""
+        }
+      },
+      {
+        "model": "courses.CourseCategory",
+        "pk": 83,
+        "fields": {
+  
+            "translation_lang": "ru",
+            "parent_id": 63,
+            "name": "AutoCAD",
+            "slug": "autocad-design",
+            "description": "AutoCAD",
+            "icon_class": "",
+            "type": "",
+            "active": "True",
+            "is_custom": ""
+        }
+      },
+      {
+        "model": "courses.CourseCategory",
+        "pk": 84,
+        "fields": {
+  
+            "translation_lang": "ru",
+            "parent_id": 63,
+            "name": "Типографика",
+            "slug": "typofraphy-design",
+            "description": "Типографика",
+            "icon_class": "",
+            "type": "",
+            "active": "True",
+            "is_custom": ""
+        }
+      },
+      {
+        "model": "courses.CourseCategory",
+        "pk": 85,
+        "fields": {
+  
+            "translation_lang": "ru",
+            "name": "Аналитика",
+            "slug": "analytics",
+            "description": "Аналитика",
+            "icon_class": "",
+            "type": "",
+            "active": "True",
+            "is_custom": ""
+        }
+      },
+      {
+        "model": "courses.CourseCategory",
+        "pk": 86,
+        "fields": {
+  
+            "translation_lang": "ru",
+            "parent_id": 85,
+            "name": "Data Science",
+            "slug": "ds-analytics",
+            "description": "Data Science",
+            "icon_class": "",
+            "type": "",
+            "active": "True",
+            "is_custom": ""
+        }
+      },
+      {
+        "model": "courses.CourseCategory",
+        "pk": 87,
+        "fields": {
+  
+            "translation_lang": "ru",
+            "parent_id": 85,
+            "name": "Бизнес-аналитика",
+            "slug": "business-analytics",
+            "description": "Бизнес-аналитика",
+            "icon_class": "",
+            "type": "",
+            "active": "True",
+            "is_custom": ""
+        }
+      },
+      {
+        "model": "courses.CourseCategory",
+        "pk": 88,
+        "fields": {
+  
+            "translation_lang": "ru",
+            "parent_id": 85,
+            "name": "Маркетинговая аналитика",
+            "slug": "marketing-analytics",
+            "description": "Маркетинговая аналитика",
+            "icon_class": "",
+            "type": "",
+            "active": "True",
+            "is_custom": ""
+        }
+      },
+      {
+        "model": "courses.CourseCategory",
+        "pk": 89,
+        "fields": {
+  
+            "translation_lang": "ru",
+            "parent_id": 85,
+            "name": "Продуктовая аналитика",
+            "slug": "product-analytics",
+            "description": "Продуктовая аналитика",
+            "icon_class": "",
+            "type": "",
+            "active": "True",
+            "is_custom": ""
+        }
+      },
+      {
+        "model": "courses.CourseCategory",
+        "pk": 90,
+        "fields": {
+  
+            "translation_lang": "ru",
+            "parent_id": 85,
+            "name": "Финансовая аналитика",
+            "slug": "finance-analytics",
+            "description": "Финансовая аналитика",
+            "icon_class": "",
+            "type": "",
+            "active": "True",
+            "is_custom": ""
+        }
+      },
+      {
+        "model": "courses.CourseCategory",
+        "pk": 91,
+        "fields": {
+  
+            "translation_lang": "ru",
+            "parent_id": 85,
+            "name": "Web-аналитика",
+            "slug": "web-analytics",
+            "description": "Web-аналитика",
+            "icon_class": "",
+            "type": "",
+            "active": "True",
+            "is_custom": ""
+        }
+      },
+      {
+        "model": "courses.CourseCategory",
+        "pk": 92,
+        "fields": {
+  
+            "translation_lang": "ru",
+            "parent_id": 85,
+            "name": "Машинное обучение",
+            "slug": "machine-analytics",
+            "description": "Машинное обучение",
+            "icon_class": "",
+            "type": "",
+            "active": "True",
+            "is_custom": ""
+        }
+      },
+      {
+        "model": "courses.CourseCategory",
+        "pk": 93,
+        "fields": {
+  
+            "translation_lang": "ru",
+            "parent_id": 85,
+            "name": "Аналитика для руководителей",
+            "slug": "leader-analytics",
+            "description": "Аналитика для руководителей",
+            "icon_class": "",
+            "type": "",
+            "active": "True",
+            "is_custom": ""
+        }
+      },
+      {
+        "model": "courses.CourseCategory",
+        "pk": 94,
+        "fields": {
+  
+            "translation_lang": "ru",
+            "parent_id": 85,
+            "name": "Аналитика на Power BI",
+            "slug": "power-analytics",
+            "description": "Аналитика на Power BI",
+            "icon_class": "",
+            "type": "",
+            "active": "True",
+            "is_custom": ""
+        }
+      },
+      {
+        "model": "courses.CourseCategory",
+        "pk": 95,
+        "fields": {
+  
+            "translation_lang": "ru",
+            "parent_id": 85,
+            "name": "Аналитика на Tableau",
+            "slug": "tableau-analytics",
+            "description": "Аналитика на Tableau",
+            "icon_class": "",
+            "type": "",
+            "active": "True",
+            "is_custom": ""
+        }
+      },
+      {
+        "model": "courses.CourseCategory",
+        "pk": 96,
+        "fields": {
+  
+            "translation_lang": "ru",
+            "parent_id": 85,
+            "name": "Аналитика на Python",
+            "slug": "python-analytics",
+            "description": "Аналитика на Python",
+            "icon_class": "",
+            "type": "",
+            "active": "True",
+            "is_custom": ""
+        }
+      },
+      {
+        "model": "courses.CourseCategory",
+        "pk": 97,
+        "fields": {
+  
+            "translation_lang": "ru",
+            "parent_id": 85,
+            "name": "Нейронные сети",
+            "slug": "neuron-analytics",
+            "description": "Нейронные сети",
+            "icon_class": "",
+            "type": "",
+            "active": "True",
+            "is_custom": ""
+        }
+      },
+      {
+        "model": "courses.CourseCategory",
+        "pk": 98,
+        "fields": {
+  
+            "translation_lang": "ru",
+            "parent_id": 85,
+            "name": "Data Engineering",
+            "slug": "engineering-analytics",
+            "description": "Data Engineering",
+            "icon_class": "",
+            "type": "",
+            "active": "True",
+            "is_custom": ""
+        }
+      },
+      {
+        "model": "courses.CourseCategory",
+        "pk": 99,
+        "fields": {
+  
+            "translation_lang": "ru",
+            "parent_id": 85,
+            "name": "SQL для анализа данных",
+            "slug": "sql-db-analytics",
+            "description": "SQL для анализа данных",
+            "icon_class": "",
+            "type": "",
+            "active": "True",
+            "is_custom": ""
+        }
+      },
+      {
+        "model": "courses.CourseCategory",
+        "pk": 100,
+        "fields": {
+  
+            "translation_lang": "ru",
+            "parent_id": 85,
+            "name": "Математика для Data Science",
+            "slug": "math-analytics",
+            "description": "Математика для Data Science",
+            "icon_class": "",
+            "type": "",
+            "active": "True",
+            "is_custom": ""
+        }
+      },
+      {
+        "model": "courses.CourseCategory",
+        "pk": 101,
+        "fields": {
+  
+            "translation_lang": "ru",
+            "parent_id": 85,
+            "name": "Deep Learning",
+            "slug": "deep-learning-analytics",
+            "description": "Deep Learning",
+            "icon_class": "",
+            "type": "",
+            "active": "True",
+            "is_custom": ""
+        }
+      },
+      {
+        "model": "courses.CourseCategory",
+        "pk": 102,
+        "fields": {
+  
+            "translation_lang": "ru",
+            "name": "Создание контента",
+            "slug": "create-content",
+            "description": "Создание контента",
+            "icon_class": "",
+            "type": "",
+            "active": "True",
+            "is_custom": ""
+        }
+      },
+      {
+        "model": "courses.CourseCategory",
+        "pk": 103,
+        "fields": {
+  
+            "translation_lang": "ru",
+            "parent_id": 102,
+            "name": "Копирайтинг",
+            "slug": "copyright-create-content",
+            "description": "Копирайтинг",
+            "icon_class": "",
+            "type": "",
+            "active": "True",
+            "is_custom": ""
+        }
+      },
+      {
+        "model": "courses.CourseCategory",
+        "pk": 104,
+        "fields": {
+  
+            "translation_lang": "ru",
+            "parent_id": 102,
+            "name": "Контент-маркетинг",
+            "slug": "marketing-create-content",
+            "description": "Контент-маркетинг",
+            "icon_class": "",
+            "type": "",
+            "active": "True",
+            "is_custom": ""
+        }
+      },
+      {
+        "model": "courses.CourseCategory",
+        "pk": 105,
+        "fields": {
+  
+            "translation_lang": "ru",
+            "parent_id": 102,
+            "name": "Создание и монтаж видео",
+            "slug": "video-create-content",
+            "description": "Создание и монтаж видео",
+            "icon_class": "",
+            "type": "",
+            "active": "True",
+            "is_custom": ""
+        }
+      },
+      {
+        "model": "courses.CourseCategory",
+        "pk": 106,
+        "fields": {
+  
+            "translation_lang": "ru",
+            "parent_id": 102,
+            "name": "Съемка и обработка фото",
+            "slug": "foto-create-content",
+            "description": "Съемка и обработка фото",
+            "icon_class": "",
+            "type": "",
+            "active": "True",
+            "is_custom": ""
+        }
+      },
+      {
+        "model": "courses.CourseCategory",
+        "pk": 107,
+        "fields": {
+  
+            "translation_lang": "ru",
+            "parent_id": 102,
+            "name": "Отрисовка иллюстраций",
+            "slug": "illustrator-create-content",
+            "description": "Отрисовка иллюстраций",
+            "icon_class": "",
+            "type": "",
+            "active": "True",
+            "is_custom": ""
+        }
+      },
+      {
+        "model": "courses.CourseCategory",
+        "pk": 108,
+        "fields": {
+  
+            "translation_lang": "ru",
+            "parent_id": 102,
+            "name": "3D-анимация",
+            "slug": "3d-create-content",
+            "description": "3D-анимация",
+            "icon_class": "",
+            "type": "",
+            "active": "True",
+            "is_custom": ""
+        }
+      },
+      {
+        "model": "courses.CourseCategory",
+        "pk": 109,
+        "fields": {
+  
+            "translation_lang": "ru",
+            "parent_id": 102,
+            "name": "Motion-дизайн",
+            "slug": "motion-create-content",
+            "description": "Motion-дизайн",
+            "icon_class": "",
+            "type": "",
+            "active": "True",
+            "is_custom": ""
+        }
+      },
+      {
+        "model": "courses.CourseCategory",
+        "pk": 110,
+        "fields": {
+  
+            "translation_lang": "ru",
+            "parent_id": 102,
+            "name": "Редактура текстов",
+            "slug": "edit-text-create-content",
+            "description": "Редактура текстов",
+            "icon_class": "",
+            "type": "",
+            "active": "True",
+            "is_custom": ""
+        }
+      },
+      {
+        "model": "courses.CourseCategory",
+        "pk": 111,
+        "fields": {
+  
+            "translation_lang": "ru",
+            "parent_id": 102,
+            "name": "Блогерство",
+            "slug": "blog-create-content",
+            "description": "Блогерство",
+            "icon_class": "",
+            "type": "",
+            "active": "True",
+            "is_custom": ""
+        }
+      },
+      {
+        "model": "courses.CourseCategory",
+        "pk": 112,
+        "fields": {
+  
+            "translation_lang": "ru",
+            "parent_id": 102,
+            "name": "Sound-дизайн и звукорежиссура",
+            "slug": "sound-desing-create-content",
+            "description": "Sound-дизайн и звукорежиссура",
+            "icon_class": "",
+            "type": "",
+            "active": "True",
+            "is_custom": ""
+        }
+      },
+      {
+        "model": "courses.CourseCategory",
+        "pk": 113,
+        "fields": {
+  
+            "translation_lang": "ru",
+            "parent_id": 102,
+            "name": "Adobe After Effects",
+            "slug": "aae-create-content",
+            "description": "Adobe After Effects",
+            "icon_class": "",
+            "type": "",
+            "active": "True",
+            "is_custom": ""
+        }
+      },
+      {
+        "model": "courses.CourseCategory",
+        "pk": 114,
+        "fields": {
+  
+            "translation_lang": "ru",
+            "parent_id": 102,
+            "name": "Cinema 4D",
+            "slug": "cinema4d-create-content",
+            "description": "Cinema 4D",
+            "icon_class": "",
+            "type": "",
+            "active": "True",
+            "is_custom": ""
+        }
+      },
+      {
+        "model": "courses.CourseCategory",
+        "pk": 115,
+        "fields": {
+  
+            "translation_lang": "ru",
+            "parent_id": 102,
+            "name": "Ableton Live",
+            "slug": "ableton-create-content",
+            "description": "Ableton Live",
             "icon_class": "",
             "type": "",
             "active": "True",
@@ -134,6 +1873,7 @@
         "pk": 1,
         "fields": {
               "title": "Skillbox",
+              "discription":"Онлайн-университет востребованных профессий.Большие образовательные программы, чтобы освоить новую специальность с самого нуля. Во время обучения мы поможем вам найти работу. Короткие программы, чтобы изучить один конкретный навык.",
               "url": "https://skillbox.ru",
               "picture": "img/unnamed.png",
               "slug": "skillbox"
@@ -144,6 +1884,7 @@
         "pk": 2,
         "fields": {
               "title": "Яндекс Практикум",
+              "discription":"Каждый может научиться новому, даже если страшно. Яндекс.Практикум помогает людям расти — на работе и в жизни. Вы освоите новую специальность, заговорите на иностранном языке и будете получать удовольствие от того, чем занимаетесь — каждый день.",
               "url": "https://praktikum.yandex.ru/",
               "picture": "img/unnamed.png",
               "slug": "yandexpractikum"
@@ -154,6 +1895,7 @@
         "pk": 3,
         "fields": {
               "title": "GeekBrains",
+              "discription":"Большие курсы и короткие интенсивы, которые помогут в работе и жизни. 8 востребованных направлений — выбирайте, в каком из них хотите развиваться. Еще у нас есть программы для школьников и целых компаний.",
               "url": "https://geekbrains.ru/",
               "picture": "img/unnamed.png",
               "slug": "geekbrains"
@@ -163,15 +1905,15 @@
         "model": "courses.Course",
         "pk": 1,
         "fields": {
-            "category": 1,
-            "title": "Programming in Python",
+            "category": 2,
+            "title": "Test Профессия Веб-разработчик",
             "school_name": 1,
-            "description": "This is great course",
-            "slug": "programming_in_python",
+            "description": "Профессия Веб-разработчик",
+            "slug": "web-dev-test",
             "date_start": "2021-05-15",
             "date_end": "2021-06-15",
-            "amount": "2000.00",
-            "raiting": 0,
+            "amount": 151900.00,
+            "raiting": 4,
             "create_at": "2020-05-15 09:30"
         }
       },
@@ -179,17 +1921,672 @@
         "model": "courses.Course",
         "pk": 2,
         "fields": {
-            "category": 1,
-            "title": "Programming in Python",
+            "category": 2,
+            "title": "Test Факультет Веб-разработки",
+            "school_name": 1,
+            "description": "Факультет Веб-разработки",
+            "slug": "fakultet-web-dev-test",
+            "date_start": "2021-05-15",
+            "date_end": "2022-06-15",
+            "amount": 2000.00,
+            "raiting": 3,
+            "create_at": "2020-05-15 09:30"
+        }
+      },
+      {
+        "model": "courses.Course",
+        "pk": 3,
+        "fields": {
+            "category": 2,
+            "title": "Test Профессия Fullstack-разработчик на Python",
             "school_name": 1,
             "description": "This is light course",
-            "slug": "programming_in_python",
+            "slug": "full-devel-python",
             "date_start": "2020-05-15",
             "date_end": "2020-06-15",
-            "amount": "2000.00",
+            "amount": "120900.00",
+            "raiting": 3,
+            "create_at": "2020-05-15 09:30"
+        }
+      },
+      {
+        "model": "courses.Course",
+        "pk": 4,
+        "fields": {
+            "category": 2,
+            "title": "Test Веб-разработчик",
+            "school_name": 3,
+            "description": "This is light course",
+            "slug": "web-develope-geek",
+            "date_start": "2021-05-15",
+            "date_end": "2022-06-15",
+            "amount": 76800,
+            "raiting": 3,
+            "create_at": "2020-05-15 09:30"
+        }
+      },
+      {
+        "model": "courses.Course",
+        "pk": 5,
+        "fields": {
+            "category": 2,
+            "title": "Test Программист PHP Test",
+            "school_name": 3,
+            "description": "This is light course",
+            "slug": "php-develope",
+            "date_start": "2021-05-15",
+            "date_end": "2022-06-15",
+            "amount": 38400.00,
+            "raiting": 5,
+            "create_at": "2020-05-15 09:30"
+        }
+      },
+      {
+        "model": "courses.Course",
+        "pk": 6,
+        "fields": {
+            "category": 14,
+            "title": "Test Профессия iOS-разработчик",
+            "school_name": 1,
+            "description": "This is light course",
+            "slug": "ios-develope",
+            "date_start": "2021-09-15",
+            "date_end": "2022-06-15",
+            "amount": 120900.00,
+            "raiting": 3,
+            "create_at": "2020-05-15 09:30"
+        }
+      },
+      {
+        "model": "courses.Course",
+        "pk": 7,
+        "fields": {
+            "category": 26,
+            "title": "Test Акселератор продуктовых IT-команд",
+            "school_name": 1,
+            "description": "This is light course",
+            "slug": "aks-product-com",
+            "date_start": "2021-05-15",
+            "date_end": "2021-06-15",
+            "amount": 350000.00,
+            "raiting": 4,
+            "create_at": "2020-05-15 09:30"
+        }
+      },
+      {
+        "model": "courses.Course",
+        "pk": 8,
+        "fields": {
+            "category": 26,
+            "title": "Test Факультет Продакт-менеджмента",
+            "school_name": 3,
+            "description": "This is light course",
+            "slug": "fak-product-manage",
+            "date_start": "2021-05-15",
+            "date_end": "2021-06-15",
+            "amount": 170400.00,
+            "raiting": 4,
+            "create_at": "2020-05-15 09:30"
+        }
+      },
+      {
+        "model": "courses.Course",
+        "pk": 9,
+        "fields": {
+            "category": 32,
+            "title": "Test Digital MBA",
+            "school_name": 3,
+            "description": "This is light course",
+            "slug": "digit-mba",
+            "date_start": "2021-05-15",
+            "date_end": "2021-06-15",
+            "amount": 590000.00,
+            "raiting": 4,
+            "create_at": "2020-05-15 09:30"
+        }
+      },
+      {
+        "model": "courses.Course",
+        "pk": 10,
+        "fields": {
+            "category": 33,
+            "title": "Test Team Lead",
+            "school_name": 1,
+            "description": "This is light course",
+            "slug": "team-lead",
+            "date_start": "2021-05-15",
+            "date_end": "2021-06-15",
+            "amount": 76560.00,
+            "raiting": 4,
+            "create_at": "2020-05-15 09:30"
+        }
+      },
+      {
+        "model": "courses.Course",
+        "pk": 11,
+        "fields": {
+            "category": 64,
+            "title": "Test Профессия Веб-дизайнер",
+            "school_name": 1,
+            "description": "This is light course",
+            "slug": "web-design",
+            "date_start": "2021-05-15",
+            "date_end": "2021-06-15",
+            "amount": 151900.00,
+            "raiting": 4,
+            "create_at": "2020-05-15 09:30"
+        }
+      },
+      {
+        "model": "courses.Course",
+        "pk": 12,
+        "fields": {
+            "category": 64,
+            "title": "Test Как стать дизайнером интерфейсов",
+            "school_name": 2,
+            "description": "This is light course",
+            "slug": "how-be-design",
+            "date_start": "2021-05-15",
+            "date_end": "2021-06-15",
+            "amount": 85000.00,
+            "raiting": 3,
+            "create_at": "2020-05-15 09:30"
+        }
+      },
+      {
+        "model": "courses.Course",
+        "pk": 13,
+        "fields": {
+            "category": 64,
+            "title": "Test Факультет Дизайна c профориентацией",
+            "school_name": 3,
+            "description": "This is light course",
+            "slug": "fak-design-with-frof",
+            "date_start": "2021-05-15",
+            "date_end": "2021-06-15",
+            "amount": 124320.00,
+            "raiting": 2,
+            "create_at": "2020-05-15 09:30"
+        }
+      },
+      {
+        "model": "courses.Course",
+        "pk": 14,
+        "fields": {
+            "category": 86,
+            "title": "Test Профессия Data Scientist",
+            "school_name": 1,
+            "description": "This is light course",
+            "slug": "prof-d-s",
+            "date_start": "2021-05-15",
+            "date_end": "2021-06-15",
+            "amount": 151900.00,
+            "raiting": 4,
+            "create_at": "2020-05-15 09:30"
+        }
+      },
+      {
+        "model": "courses.Course",
+        "pk": 15,
+        "fields": {
+            "category": 86,
+            "title": "Test Data Science в медицине",
+            "school_name": 3,
+            "description": "This is light course",
+            "slug": "d-s-medic",
+            "date_start": "2021-05-15",
+            "date_end": "2021-06-15",
+            "amount": 180000.00,
+            "raiting": 4,
+            "create_at": "2020-05-15 09:30"
+        }
+      },
+      {
+        "model": "courses.Course",
+        "pk": 16,
+        "fields": {
+            "category": 86,
+            "title": "Test Как стать специалистом по Data Science",
+            "school_name": 2,
+            "description": "This is light course",
+            "slug": "how-spec-d-s",
+            "date_start": "2021-05-15",
+            "date_end": "2021-06-15",
+            "amount": 95000.00,
+            "raiting": 3,
+            "create_at": "2020-05-15 09:30"
+        }
+      },
+      {
+        "model": "courses.Course",
+        "pk": 17,
+        "fields": {
+            "category": 86,
+            "title": "Test Профессия Data Scientist: машинное обучение",
+            "school_name": 1,
+            "description": "This is light course",
+            "slug": "prof-d-s-machine-learn",
+            "date_start": "2021-05-15",
+            "date_end": "2021-06-15",
+            "amount": 79000.00,
+            "raiting": 4,
+            "create_at": "2020-05-15 09:30"
+        }
+      },
+      {
+        "model": "courses.Course",
+        "pk": 18,
+        "fields": {
+            "category": 86,
+            "title": "Test Как стать аналитиком данных",
+            "school_name": 2,
+            "description": "This is light course",
+            "slug": "how-be-analyt",
+            "date_start": "2021-05-15",
+            "date_end": "2021-06-15",
+            "amount": 70000.00,
+            "raiting": 4,
+            "create_at": "2020-05-15 09:30"
+        }
+      },
+      {
+        "model": "courses.Course",
+        "pk": 19,
+        "fields": {
+            "category": 86,
+            "title": "Test Профессия Data Scientist: анализ данных",
+            "school_name": 1,
+            "description": "This is light course",
+            "slug": "prof-ds-analyt-data",
+            "date_start": "2021-08-15",
+            "date_end": "2021-10-15",
+            "amount": 79000.00,
+            "raiting": 4,
+            "create_at": "2020-05-15 09:30"
+        }
+      },
+      {
+        "model": "courses.Course",
+        "pk": 20,
+        "fields": {
+            "category": 44,
+            "title": "Test Профессия SMM-специалист",
+            "school_name": 1,
+            "description": "This is light course",
+            "slug": "prof-smm",
+            "date_start": "2021-03-15",
+            "date_end": "2021-06-15",
+            "amount": 151900.00,
+            "raiting": 4,
+            "create_at": "2020-05-15 09:30"
+        }
+      },
+      {
+        "model": "courses.Course",
+        "pk": 21,
+        "fields": {
+            "category": 44,
+            "title": "Test Профессия Таргетолог с нуля до PRO",
+            "school_name": 1,
+            "description": "This is light course",
+            "slug": "prof-target-pro",
+            "date_start": "2021-05-15",
+            "date_end": "2021-06-15",
+            "amount": 139500.00,
+            "raiting": 4,
+            "create_at": "2020-05-15 09:30"
+        }
+      },
+      {
+        "model": "courses.Course",
+        "pk": 22,
+        "fields": {
+            "category": 44,
+            "title": "Test Профессия SMM от Middle до Senior",
+            "school_name": 1,
+            "description": "This is light course",
+            "slug": "prof-smm-midle-seniuor",
+            "date_start": "2021-05-15",
+            "date_end": "2021-06-15",
+            "amount": 86000.00,
+            "raiting": 4,
+            "create_at": "2020-05-15 09:30"
+        }
+      },
+      {
+        "model": "courses.Course",
+        "pk": 23,
+        "fields": {
+            "category": 44,
+            "title": "Test Таргетолог с нуля",
+            "school_name": 1,
+            "description": "This is light course",
+            "slug": "targetolog-null",
+            "date_start": "2021-05-15",
+            "date_end": "2021-06-15",
+            "amount": 46690,
+            "raiting": 4,
+            "create_at": "2020-05-15 09:30"
+        }
+      },
+      {
+        "model": "courses.Course",
+        "pk": 24,
+        "fields": {
+            "category": 44,
+            "title": "Test Instagram-маркетолог",
+            "school_name": 3,
+            "description": "This is light course",
+            "slug": "instagram-market",
+            "date_start": "2021-05-15",
+            "date_end": "2021-06-15",
+            "amount": 72000.00,
+            "raiting": 4,
+            "create_at": "2020-05-15 09:30"
+        }
+      },
+      {
+        "model": "courses.Course",
+        "pk": 25,
+        "fields": {
+            "category": 44,
+            "title": "Test SMM-специалист с нуля",
+            "school_name": 1,
+            "description": "This is light course",
+            "slug": "smm-null-q",
+            "date_start": "2021-05-15",
+            "date_end": "2021-06-15",
+            "amount": 46690.00,
+            "raiting": 4,
+            "create_at": "2020-05-15 09:30"
+        }
+      },
+      {
+        "model": "courses.Course",
+        "pk": ,
+        "fields": {
+            "category": ,
+            "title": "",
+            "school_name": ,
+            "description": "This is light course",
+            "slug": "",
+            "date_start": "2020-05-15",
+            "date_end": "2020-06-15",
+            "amount": "",
+            "raiting": 3,
+            "create_at": "2020-05-15 09:30"
+        }
+      },
+      {
+        "model": "courses.Course",
+        "pk": ,
+        "fields": {
+            "category": ,
+            "title": "",
+            "school_name": ,
+            "description": "This is light course",
+            "slug": "",
+            "date_start": "2020-05-15",
+            "date_end": "2020-06-15",
+            "amount": "",
+            "raiting": 3,
+            "create_at": "2020-05-15 09:30"
+        }
+      },
+      {
+        "model": "courses.Course",
+        "pk": ,
+        "fields": {
+            "category": ,
+            "title": "",
+            "school_name": ,
+            "description": "This is light course",
+            "slug": "",
+            "date_start": "2020-05-15",
+            "date_end": "2020-06-15",
+            "amount": "",
+            "raiting": 3,
+            "create_at": "2020-05-15 09:30"
+        }
+      },
+      {
+        "model": "courses.Course",
+        "pk": ,
+        "fields": {
+            "category": ,
+            "title": "",
+            "school_name": ,
+            "description": "This is light course",
+            "slug": "",
+            "date_start": "2020-05-15",
+            "date_end": "2020-06-15",
+            "amount": "",
+            "raiting": 3,
+            "create_at": "2020-05-15 09:30"
+        }
+      },
+      {
+        "model": "courses.Course",
+        "pk": ,
+        "fields": {
+            "category": ,
+            "title": "",
+            "school_name": ,
+            "description": "This is light course",
+            "slug": "",
+            "date_start": "2020-05-15",
+            "date_end": "2020-06-15",
+            "amount": "",
+            "raiting": 3,
+            "create_at": "2020-05-15 09:30"
+        }
+      },
+      {
+        "model": "courses.Course",
+        "pk": ,
+        "fields": {
+            "category": ,
+            "title": "",
+            "school_name": ,
+            "description": "This is light course",
+            "slug": "",
+            "date_start": "2020-05-15",
+            "date_end": "2020-06-15",
+            "amount": "",
+            "raiting": 3,
+            "create_at": "2020-05-15 09:30"
+        }
+      },
+      {
+        "model": "courses.Course",
+        "pk": ,
+        "fields": {
+            "category": ,
+            "title": "",
+            "school_name": ,
+            "description": "This is light course",
+            "slug": "",
+            "date_start": "2020-05-15",
+            "date_end": "2020-06-15",
+            "amount": "",
+            "raiting": 3,
+            "create_at": "2020-05-15 09:30"
+        }
+      },
+      {
+        "model": "courses.Course",
+        "pk": ,
+        "fields": {
+            "category": ,
+            "title": "",
+            "school_name": ,
+            "description": "This is light course",
+            "slug": "",
+            "date_start": "2020-05-15",
+            "date_end": "2020-06-15",
+            "amount": "",
+            "raiting": 3,
+            "create_at": "2020-05-15 09:30"
+        }
+      },
+      {
+        "model": "courses.Course",
+        "pk": ,
+        "fields": {
+            "category": ,
+            "title": "",
+            "school_name": ,
+            "description": "This is light course",
+            "slug": "",
+            "date_start": "2020-05-15",
+            "date_end": "2020-06-15",
+            "amount": "",
+            "raiting": 3,
+            "create_at": "2020-05-15 09:30"
+        }
+      },
+      {
+        "model": "courses.Course",
+        "pk": ,
+        "fields": {
+            "category": ,
+            "title": "",
+            "school_name": ,
+            "description": "This is light course",
+            "slug": "",
+            "date_start": "2020-05-15",
+            "date_end": "2020-06-15",
+            "amount": "",
+            "raiting": 3,
+            "create_at": "2020-05-15 09:30"
+        }
+      },
+      {
+        "model": "courses.Course",
+        "pk": ,
+        "fields": {
+            "category": ,
+            "title": "",
+            "school_name": ,
+            "description": "This is light course",
+            "slug": "",
+            "date_start": "2020-05-15",
+            "date_end": "2020-06-15",
+            "amount": "",
+            "raiting": 3,
+            "create_at": "2020-05-15 09:30"
+        }
+      },
+      {
+        "model": "courses.Course",
+        "pk": ,
+        "fields": {
+            "category": ,
+            "title": "",
+            "school_name": ,
+            "description": "This is light course",
+            "slug": "",
+            "date_start": "2020-05-15",
+            "date_end": "2020-06-15",
+            "amount": "",
+            "raiting": 3,
+            "create_at": "2020-05-15 09:30"
+        }
+      },
+      {
+        "model": "courses.Course",
+        "pk": ,
+        "fields": {
+            "category": ,
+            "title": "",
+            "school_name": ,
+            "description": "This is light course",
+            "slug": "",
+            "date_start": "2020-05-15",
+            "date_end": "2020-06-15",
+            "amount": "",
+            "raiting": 3,
+            "create_at": "2020-05-15 09:30"
+        }
+      },
+      {
+        "model": "courses.Course",
+        "pk": ,
+        "fields": {
+            "category": ,
+            "title": "",
+            "school_name": ,
+            "description": "This is light course",
+            "slug": "",
+            "date_start": "2020-05-15",
+            "date_end": "2020-06-15",
+            "amount": "",
+            "raiting": 3,
+            "create_at": "2020-05-15 09:30"
+        }
+      },
+      {
+        "model": "courses.Course",
+        "pk": ,
+        "fields": {
+            "category": ,
+            "title": "",
+            "school_name": ,
+            "description": "This is light course",
+            "slug": "",
+            "date_start": "2020-05-15",
+            "date_end": "2020-06-15",
+            "amount": "",
+            "raiting": 3,
+            "create_at": "2020-05-15 09:30"
+        }
+      },
+      {
+        "model": "courses.Course",
+        "pk": ,
+        "fields": {
+            "category": ,
+            "title": "",
+            "school_name": ,
+            "description": "This is light course",
+            "slug": "",
+            "date_start": "2020-05-15",
+            "date_end": "2020-06-15",
+            "amount": "",
+            "raiting": 3,
+            "create_at": "2020-05-15 09:30"
+        }
+      },
+      {
+        "model": "courses.Course",
+        "pk": ,
+        "fields": {
+            "category": ,
+            "title": "",
+            "school_name": ,
+            "description": "This is light course",
+            "slug": "",
+            "date_start": "2020-05-15",
+            "date_end": "2020-06-15",
+            "amount": "",
+            "raiting": 3,
+            "create_at": "2020-05-15 09:30"
+        }
+      },
+      {
+        "model": "courses.Course",
+        "pk": ,
+        "fields": {
+            "category": ,
+            "title": "",
+            "school_name": ,
+            "description": "This is light course",
+            "slug": "",
+            "date_start": "2020-05-15",
+            "date_end": "2020-06-15",
+            "amount": "",
             "raiting": 3,
             "create_at": "2020-05-15 09:30"
         }
       }
-
 ]

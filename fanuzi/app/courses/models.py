@@ -25,38 +25,34 @@ class CourseCategory(models.Model):
     def __str__(self):
         return f"{self.name}"
 
-    # def get_fields(self):
-    #     return self.categoryfield_set.filter(parent_id=None)
 
-    # def get_subcategories(self):
-    #     return self.categories_set.all().order_by('name')
+# class CoursePartner(models.Model):
+#     course_id = models.ForeignKey(CourseCategory, on_delete=models.CASCADE, related_name="partner_category", verbose_name="Отношение к категории")
+#     partner_link = models.CharField(max_length=255, blank=True, null=True, verbose_name="Партнерская ссылка")
+#     create_at = models.DateTimeField(verbose_name="Дата создания")
+#     update_at = models.DateTimeField(verbose_name="Дата последнего изменения")
 
+#     class Meta:
+#         db_table = 'course_partner'
+#         verbose_name = 'Партнер'
+#         verbose_name_plural = 'Партнеры'
 
-class CoursePartner(models.Model):
-    course_id = models.ForeignKey(CourseCategory, on_delete=models.CASCADE, related_name="partner_category", verbose_name="Отношение к категории")
-    partner_link = models.CharField(max_length=255, blank=True, null=True, verbose_name="Партнерская ссылка")
-    create_at = models.DateTimeField(verbose_name="Дата создания")
-    update_at = models.DateTimeField(verbose_name="Дата последнего изменения")
-
-    class Meta:
-        db_table = 'course_partner'
-        verbose_name = 'Партнер'
-        verbose_name_plural = 'Партнеры'
-
-    def __str__(self):
-        return f"ID: {self.id} => {self.course_id}"
+#     def __str__(self):
+#         return f"ID: {self.id} => {self.course_id}"
 
 
-    def save(self, *args, **kwargs):
-        if not self.id:
-            self.created_at = timezone.now()
-        self.updated_at = timezone.now()
-        super(CoursePartner, self).save(*args, **kwargs)
-        return self
+#     def save(self, *args, **kwargs):
+#         if not self.id:
+#             self.created_at = timezone.now()
+#         self.updated_at = timezone.now()
+#         super(CoursePartner, self).save(*args, **kwargs)
+#         return self
 
 
 class School(models.Model):
     title = models.CharField(max_length=250, verbose_name="Название школы")
+    discription = models.TextField(default="")
+    partner_link = models.CharField(max_length=255, blank=True, null=True, verbose_name="Партнерская ссылка")
     url = models.CharField(max_length=250, blank=True, null=True, verbose_name="Ссылка на школу(внешняя)")
     picture = models.ImageField(upload_to='img/school/logo', verbose_name="Лого школы", blank=True, null=True)
     slug = models.CharField("Ссылка на школу(внутренняя)", max_length=250, unique=True, default="")
@@ -78,7 +74,7 @@ class Course(models.Model):
     school_name = models.ForeignKey(School, on_delete=models.CASCADE, related_name="course_school", blank=True, null=True, verbose_name="Онлайн школа курса")
     title = models.CharField(max_length=250, verbose_name="Название курса")
     description = models.TextField(blank=True, null=True, verbose_name="Описание курса")
-    slug = models.URLField(blank=True, null=True, verbose_name="Ссылка на курс")
+    slug = models.CharField(max_length=150, blank=True, null=True, verbose_name="Ссылка на курс", unique=True)
     # from_to = models.CharField(max_length=250, blank=True, null=True) Вроде лишняя 
     date_start = models.DateField(blank=True, null=True, verbose_name="Дата начала курса")
     date_end = models.DateField(blank=True, null=True, verbose_name="Дата окончания курса")
@@ -98,7 +94,7 @@ class Course(models.Model):
     def save(self, *args, **kwargs):
         if not self.id:
             self.created_at = timezone.now()
-        super(CoursePartner, self).save(*args, **kwargs)
+        super(Course, self).save(*args, **kwargs)
         return self
 
 

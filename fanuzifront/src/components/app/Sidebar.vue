@@ -15,6 +15,7 @@
                 </nav>
             </li>
             <Schools />
+
             <Courses />
             
         </ul>

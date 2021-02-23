@@ -1,6 +1,7 @@
 <template>
     <div class="grey-custom empty-layout">
-        <Form @submit="getLogin" :validation-schema="schema" v-slot="{ errors }" class="card auth-card">
+      <Loader v-if="loading" />
+        <Form @submit="getLogin" :validation-schema="schema" v-slot="{ errors }" class="card auth-card" v-else>
             <div class="card-content">
                 <span class="card-title center">Вход на сайт <router-link class="link-home" to="/">Fanuzi</router-link></span>
                 <div class="input-field">
@@ -40,6 +41,7 @@
             </div>
         </form>
     </div>
+       
     <!-- Modal -->
     <div id="loginModal" class="modal">
       <div class="modal-content">
@@ -53,9 +55,11 @@
 </template>
 
 <script>
+import Loader from '../components/Loader'
 import { Field, Form } from 'vee-validate'
 import * as yup from 'yup'
 import M from 'materialize-css/dist/js/materialize.min'
+
 
 export default {
   data () {
@@ -67,6 +71,7 @@ export default {
       modalHeaderText: "",
       modalBodyText: "",
       isSuccsess: "",
+      loading: false,
       schema
     }
   },
@@ -74,8 +79,10 @@ export default {
     async getLogin (values) {
       const formData = {
         username: values.email.toLowerCase(),
-        password: values.password
+        password: values.password.trim()
       }
+       console.log(formData)
+      this.loading = true
       await fetch(`${this.$store.getters.getServerUrl}/auth/token/`, {
         method: 'POST',
         headers: {
@@ -85,6 +92,7 @@ export default {
       })
         .then(response => response.json())
         .then(data => { 
+          this.loading = false
           if(data.token) {
             localStorage.setItem('token', data.token)
             this.modalHeaderText = "Вы успешно залогинены!"
@@ -101,6 +109,7 @@ export default {
           }
         })
         .catch(err => { 
+          this.loading = false
           this.modalHeaderText = "К сожалению наш сервер не хочет работать"
           this.modalBodyText = "Но мы уговариваем его изо всех сил, попробуйте позже"
           this.isSuccsess = false
@@ -128,7 +137,8 @@ export default {
   },
   components: {
     Field,
-    Form
+    Form,
+    Loader
   }
 }
 </script>

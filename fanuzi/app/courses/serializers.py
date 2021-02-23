@@ -26,9 +26,15 @@ class SchoolDetailSerializer(serializers.ModelSerializer):
         fields = '__all__'
 
 
+class SchoolSerializer(serializers.ModelSerializer):
+    """"Сериализация школ"""
+    class Meta:
+        model = School
+        fields = ['title', 'url', 'slug', 'partner_link', 'picture']
+
+
 class CourseSerializer(serializers.ModelSerializer):
     """Сериализация курсов"""
-    category = CourseCategorySerializer()
     school_name = SchoolSerializer()
 
     class Meta:
@@ -41,8 +47,7 @@ class CourseSerializer(serializers.ModelSerializer):
                     'date_end', 
                     'amount', 
                     'installment', 
-                    'raiting', 
-                    'category', 
+                    'raiting',  
                     'school_name',
         ]
 

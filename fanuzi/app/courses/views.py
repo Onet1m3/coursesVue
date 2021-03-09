@@ -37,3 +37,15 @@ class CourseCategoryView(ListAPIView):
     model = CourseCategory
     serializer_class = CourseCategorySerializer
     queryset = CourseCategory.objects.filter(parent_id__isnull=True, active=True)
+
+
+class CategoryCourseView(ListAPIView):
+    """Список курсов по категориям"""
+
+    model = Course
+    serializer_class = CourseSerializer
+
+    def get_queryset(self):
+        category_slug = self.kwargs['slug']
+        queryset = Course.objects.filter(category__slug=category_slug)
+        return queryset

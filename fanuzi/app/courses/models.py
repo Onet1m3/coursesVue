@@ -91,6 +91,9 @@ class Course(models.Model):
     def __str__(self):
         return f"{self.title}"
 
+    def get_absolute_url(self):
+        return reverse("list_category_courses", kwargs={"slug": self.slug})
+
     def save(self, *args, **kwargs):
         if not self.id:
             self.created_at = timezone.now()

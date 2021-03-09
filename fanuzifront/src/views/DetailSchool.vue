@@ -41,6 +41,7 @@ export default {
                 .then(resdata => this.school = resdata)
                 this.loading = false
             }catch (e) {
+                this.loading = false
                 console.log(e.message)
             }
             

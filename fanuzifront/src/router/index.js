@@ -15,6 +15,13 @@ const routes = [
     props: true
   },
   {
+    path: '/course/:slug',
+    name: 'CategoriesCourses',
+    meta: { layout: 'main' },
+    component: () => import('../components/app/sidebar/ListCategoriesCourses'),
+    props: true
+  },
+  {
     path: '/login',
     name: 'Login',
     meta: { layout: 'auth' },

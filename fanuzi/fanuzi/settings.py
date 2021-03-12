@@ -30,9 +30,12 @@ INSTALLED_APPS = [
     'rest_framework.authtoken',
     'corsheaders',
     'django_filters',
+    'django_celery_beat',
+    'django_celery_results',
 
     'app.users',
     'app.courses',
+    'app.news',
 ]
 
 MIDDLEWARE = [
@@ -133,6 +136,22 @@ USE_TZ = True
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/3.1/howto/static-files/
+
+
+#REDIS SETTINGS
+REDIS_HOST = 'localhost'
+REDIS_PORT = 6379
+
+
+#CELERY SETTINGS
+CELERY_BROKER_URL = 'redis://localhost:6379'
+
+CELERY_ACCEPT_CONTENT = ['json']
+CELERY_TASK_SERIALIZER = 'json'
+
+CELERY_TIMEZONE = "Europe/Moscow"
+CELERY_TASK_TRACK_STARTED = True
+CELERY_TASK_TIME_LIMIT = 30 * 60
 
 
 try:
